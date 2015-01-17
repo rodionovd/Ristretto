@@ -14,10 +14,6 @@
 		22F846631A1DDF0F002A9C68 /* RistrettoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F846621A1DDF0F002A9C68 /* RistrettoTests.m */; };
 		22F8466D1A1DDF2F002A9C68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8466C1A1DDF2F002A9C68 /* AVFoundation.framework */; };
 		22F8466F1A1DDF39002A9C68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8466E1A1DDF39002A9C68 /* Cocoa.framework */; };
-		22F846741A1DDFE8002A9C68 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846701A1DDFE8002A9C68 /* Status.png */; };
-		22F846751A1DDFE8002A9C68 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846711A1DDFE8002A9C68 /* Status@2x.png */; };
-		22F846761A1DDFE8002A9C68 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846721A1DDFE8002A9C68 /* StatusHighlighted.png */; };
-		22F846771A1DDFE8002A9C68 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846731A1DDFE8002A9C68 /* StatusHighlighted@2x.png */; };
 		22F846791A1DE061002A9C68 /* murmur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22F846781A1DE061002A9C68 /* murmur.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +40,6 @@
 		22F846621A1DDF0F002A9C68 /* RistrettoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RistrettoTests.m; sourceTree = "<group>"; };
 		22F8466C1A1DDF2F002A9C68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		22F8466E1A1DDF39002A9C68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		22F846701A1DDFE8002A9C68 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
-		22F846711A1DDFE8002A9C68 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
-		22F846721A1DDFE8002A9C68 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
-		22F846731A1DDFE8002A9C68 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 		22F846781A1DE061002A9C68 /* murmur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = murmur.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,10 +89,6 @@
 				22F8464E1A1DDF0F002A9C68 /* AppDelegate.h */,
 				22F8464F1A1DDF0F002A9C68 /* AppDelegate.m */,
 				22F846781A1DE061002A9C68 /* murmur.mp3 */,
-				22F846701A1DDFE8002A9C68 /* Status.png */,
-				22F846711A1DDFE8002A9C68 /* Status@2x.png */,
-				22F846721A1DDFE8002A9C68 /* StatusHighlighted.png */,
-				22F846731A1DDFE8002A9C68 /* StatusHighlighted@2x.png */,
 				22F846531A1DDF0F002A9C68 /* Images.xcassets */,
 				22F846551A1DDF0F002A9C68 /* MainMenu.xib */,
 				22F8464C1A1DDF0F002A9C68 /* Supporting Files */,
@@ -214,12 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F846771A1DDFE8002A9C68 /* StatusHighlighted@2x.png in Resources */,
-				22F846741A1DDFE8002A9C68 /* Status.png in Resources */,
 				22F846541A1DDF0F002A9C68 /* Images.xcassets in Resources */,
 				22F846791A1DE061002A9C68 /* murmur.mp3 in Resources */,
-				22F846761A1DDFE8002A9C68 /* StatusHighlighted.png in Resources */,
-				22F846751A1DDFE8002A9C68 /* Status@2x.png in Resources */,
 				22F846571A1DDF0F002A9C68 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +410,7 @@
 				22F846681A1DDF0F002A9C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F846691A1DDF0F002A9C68 /* Build configuration list for PBXNativeTarget "RistrettoTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +419,7 @@
 				22F8466B1A1DDF0F002A9C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
